@@ -5,7 +5,7 @@ const router = Router();
 
 router.get("/", (req: Request, res: Response) => {
   res.status(200).json({
-    text: "Hello world!",
+    text: "skdrjoiwejrioj!",
     params: req.query,
   });
 });
